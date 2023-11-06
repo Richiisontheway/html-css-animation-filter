@@ -57,11 +57,27 @@
 }
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    transition: 3s  ;
 }
-
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+.ex-7-img:hover{
+    filter: grayscale(1) opacity(0.2);
+}
+.ex-8-img:hover{
+    filter: hue-rotate(60deg) saturate(5);
+    border-radius: 15px;
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
+}
+.ex-9-img:hover {
+    border-radius: 25px;
+    filter: sepia(5) blur(5px);
+    transform: scale(0.75);
 }
 .ex-10-icon {
     font-size: 60px;
